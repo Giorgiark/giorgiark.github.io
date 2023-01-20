@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#calendar {
+  max-width: 400px;
+  margin: 100px auto;
+  
+  
+}
+
+#calendar-header {
+  background-color: #f2f2f2;
+  border-radius: 20px 20px 0 0;
+  text-spacing: 10px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#prev-month, #next-month {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+
+#prev-month i, #next-month i {
+  color: #000;
+}
+
+
+#month-year {
+  font-size: 24px;
+  text-align: center;
+}
+
+#calendar-body {
+  width: 100%;
+  background-color:#F9FAFB;
+  border-collapse: collapse;
+  border: 0;
+}
+
+th, td {
+  border: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.today {
+    background-color: #f2f2f2;
+  border-radius: 20px;
+}
